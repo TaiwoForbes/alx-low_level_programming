@@ -1,0 +1,2 @@
+#!/bin/bash
+#include <stdio.> /** * main - Entry point * * Returnmain (void) { return (0); }
