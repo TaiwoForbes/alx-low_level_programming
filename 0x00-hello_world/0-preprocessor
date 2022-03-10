@@ -1,2 +1,2 @@
 #!/bin/bash
-#include <stdio.> /** * main - Entry point * * Returnmain (void) { return (0); }
+export CFILE=0-main.c ; ./0-preprocessor
