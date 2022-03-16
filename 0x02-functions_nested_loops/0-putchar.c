@@ -1,12 +1,24 @@
-#include<stdio.h> 
+#include "main.h"
 
 /**
- * main - check the code
+ * main - check the code for School students
  *
- * Return: Always 0.
+ * Program that prints _putchar, followed by a new line
+ *
+ * Return: always 0 (success)
  */
-int main()
+
+int main(void)
 {
-    printf("_putchar\n");
-    return 0;
+	char s[] = "_putchar";
+	int i = 0;
+
+	while (s[i] != '\0')
+	{
+		_putchar(s[i]);
+		i++;
+	}
+	_putchar(10);
+
+	return (0);
 }
