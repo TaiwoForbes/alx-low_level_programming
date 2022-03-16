@@ -1,1 +1,1 @@
-This file is based on task on C programming language
+This readme is for function nested loops task on ALX
