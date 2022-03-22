@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 /**
  *print_rev - prints strin in reverse.
  *@s: pointer to string.
