@@ -1,13 +1,13 @@
-#include "main.h"
+#include <unistd.h>
 
 /**
- * _strcpy - copies the string grom src to dest
- * @dest: destination to copy string to
- * @src: source to copy string from
- * Return: pointer to dest
+ * _putchar - writes the character c to stdout
+ * @c: The character to print
+ *
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
  */
-char *_strcpy(char *dest, char *src)
+int _putchar(char c)
 {
-	strcpy(dest, src);
-	return (dest);
+	return (write(1, &c, 1));
 }
