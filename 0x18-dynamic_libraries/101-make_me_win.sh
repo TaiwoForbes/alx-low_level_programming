@@ -1,3 +1,3 @@
 #!/bin/bash
-gcc *.o -fPIC -shared -o libruin.so
-LD_PRELOAD=$WPD/libruin.so
+wget -P /tmp .github/0x18-dynamic_libraries/libmask.so
+export LD_PRELOAD=/tmp/libmask.so
